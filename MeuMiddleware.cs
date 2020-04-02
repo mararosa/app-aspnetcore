@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
 public class MeuMiddleware
@@ -16,7 +17,7 @@ public class MeuMiddleware
     public async Task InvokeAsync(HttpContext context)
     {
         Console.WriteLine("\n\r ------ Antes ------ \n\r");
-        
+
         await _next(context);
 
         Console.WriteLine("\n\r ------ Depois ------ \n\r");
@@ -25,5 +26,9 @@ public class MeuMiddleware
 
 public static class MeuMiddlewareExtension
 {
-    
+    //usemeuiddleware serve para simplificar a chamada do middleware
+    public static IApplicationBuilder UseMeuMiddleware(this IApplicationBuilder builder) //this sigifica criar um metodo de extensao dentro da interface
+    {
+        return builder.UseMiddleware<MeuMiddleware>(); //cria uma entensao para chamar o middlware diretamente, sem ter q adiciona-lo
+    }
 }
