@@ -47,7 +47,7 @@ namespace MinhaAppVSCode
             app.UseAuthorization();
 
             // app.UseMiddleware<MeuMiddleware>();
-            app.UseMiddleware();
+            app.UseMeuMiddleware();
 
             app.UseEndpoints(endpoints =>
             {
