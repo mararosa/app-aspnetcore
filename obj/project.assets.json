@@ -2,9 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "AspNetCore/0.0.41": {
-        "type": "package"
-      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -147,22 +144,6 @@
     }
   },
   "libraries": {
-    "AspNetCore/0.0.41": {
-      "sha512": "jTQCHHTyekGmZl8o+jJxKy1SdianmPEXFvDfdSIRB42uoeuNj7pM2qBIWm0AqXYoLuIJi/DscDcKICB2EWmY8A==",
-      "type": "package",
-      "path": "aspnetcore/0.0.41",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aspnetcore.0.0.41.nupkg.sha512",
-        "aspnetcore.nuspec",
-        "build/Codelet.Properties.AspNetCore.props",
-        "build/Codelet.Properties.AspNetCore.targets",
-        "build/Codelet.Properties.Common.props",
-        "build/Codelet.Properties.Library.props",
-        "build/Codelet.Properties.Library.ruleset"
-      ]
-    },
     "AutoMapper/9.0.0": {
       "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
@@ -809,7 +790,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "aspnetcore >= 0.0.41",
       "automapper >= 9.0.0"
     ]
   },
@@ -855,12 +835,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "aspnetcore": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[0.0.41, )"
-          },
           "automapper": {
             "target": "Package",
             "version": "[9.0.0, )"

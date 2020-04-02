@@ -35,3 +35,5 @@ C:\Labs\MinhaAppVSCode\obj\Debug\netcoreapp3.1\MinhaAppVSCode.dll
 C:\Labs\MinhaAppVSCode\obj\Debug\netcoreapp3.1\MinhaAppVSCode.pdb
 C:\Labs\MinhaAppVSCode\obj\Debug\netcoreapp3.1\MinhaAppVSCode.genruntimeconfig.cache
 C:\Labs\MinhaAppVSCode\obj\Debug\netcoreapp3.1\MinhaAppVSCode.csproj.CopyComplete
+C:\Labs\MinhaAppVSCode\bin\Debug\netcoreapp3.1\appsettings.Staging.json
+C:\Labs\MinhaAppVSCode\bin\Debug\netcoreapp3.1\AutoMapper.dll

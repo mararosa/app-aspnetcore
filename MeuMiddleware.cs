@@ -22,3 +22,8 @@ public class MeuMiddleware
         Console.WriteLine("\n\r ------ Depois ------ \n\r");
     }
 }
+
+public static class MeuMiddlewareExtension
+{
+    
+}

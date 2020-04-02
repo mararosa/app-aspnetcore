@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "q3qiIDChE8NjlIB9N9JicYj5wVl8q5eHx6beIxkzjD3/OwelGT2hETI1JAiwcOmUKpVRGrbb2ajmmaVnrkO3DA==",
+  "dgSpecHash": "6XJC2mX/sGiaemHke7CdhKihd+V9AdyPrpowISXns4T0ntpICsZYMx9jkZbFt9uF6COMFtm+5cPCVT/o3Y3N5A==",
   "success": true,
   "projectFilePath": "C:\\Labs\\MinhaAppVSCode\\MinhaAppVSCode.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\edimara.roberta.rosa\\.nuget\\packages\\aspnetcore\\0.0.41\\aspnetcore.0.0.41.nupkg.sha512",
     "C:\\Users\\edimara.roberta.rosa\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\edimara.roberta.rosa\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\edimara.roberta.rosa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
