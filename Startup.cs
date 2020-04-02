@@ -46,6 +46,8 @@ namespace MinhaAppVSCode
 
             app.UseAuthorization();
 
+            app.UseMiddleware<MeuMiddleware>();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
