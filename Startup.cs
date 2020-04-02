@@ -21,13 +21,13 @@ namespace MinhaAppVSCode
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services) //add config. da politicas auteticacao, acesso ao banco de dados, add middleware
         {
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env) //metodo configure trata de utilizar o applicationbuilder que ajuda a config os middlewares. Ihost enviroment ajuda a definir os comportamentos com base no ambiente q estiver trabalhando
         {
             if (env.IsDevelopment())
             {
